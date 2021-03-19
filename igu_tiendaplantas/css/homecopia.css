@@ -1,0 +1,154 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat, Roboto;
+}
+
+
+.busquedausuario .deseos{
+	width: 50px;
+	height: 50px;
+}
+
+.redes{
+	display: flex;
+	flex-direction: column;
+	align-items:center; 
+	justify-content:space-around;
+	position: fixed;
+	right: 0px;
+	top: 40%;
+	width: 55px;
+	height: 218px;
+	border-radius: 15px 0px 0px 15px;
+	background-color: #F3B780;
+
+}
+
+.redes img{
+	height: 30px;
+	width: 30px;
+}
+
+.filtro{
+  	position: fixed;
+	left:47px;
+	top: 171px;
+	/*width: 239px;*/
+	/*height: 240px;*/
+	background-color: #F3B780;	
+	border-radius: 15px;
+}
+
+.estrellas{
+	display: flex;
+	margin: 15px;
+	justify-content: space-around;
+
+}
+
+.filtro p{
+	margin:20px;
+	font-size: 14px;
+	color: white;
+	font-weight: bold;
+}
+
+.estrellas img{
+	width: 32px;
+	height:32px;
+}
+
+main{
+	display:flex;
+	justify-content: center;
+}
+
+.galeria{
+/*	margin-left: 170px;*/
+	max-width: 1200px;
+	width:100%; 
+	display: grid;
+	grid-template-columns:repeat(auto-fit, 169px);
+	grid-auto-rows: 169px; 
+	grid-gap:80px;
+}
+
+
+.vermas:hover{
+	color: #F3B780;
+}
+
+
+.A{
+	width:169px;
+	height: 169px;
+	background-color: grey;
+	border-radius: 15px;
+	position:relative;
+	overflow: hidden;
+
+}
+.A .imagen{
+	width: 100%;
+	height: 100%;	
+	position: absolute;
+	border-radius: 15px;	
+}
+
+
+.corazon{
+	background-image: url(../img/corazon.jpg);
+	background-size: cover;
+	position: absolute;
+	width: 40px;
+	height: 40px;
+	top:-1px;
+	/*left:-1px;*/
+	border-radius:15px 0px 15px 0px;
+	z-index: 2;	
+	}	
+
+.trans{
+	position:absolute;
+	background-color: rgba(13, 151, 110, 77%);
+	bottom: -35px;
+	border-radius: 0px 0px 15px 15px;
+	display:flex;
+	align-items: center;
+	width: 100%;
+	transition: 0.5s;
+}
+
+.A:hover > .trans{
+	bottom: 0px; 
+}
+
+.trans p{
+	font-size: 14px;
+	color:white;
+	font-weight: bold;	
+	/*display: inline-block;*/
+/*	margin-left: 4px;*/
+	padding: 8px;
+}
+
+.trans a{
+  font-size:10px;
+  font-weight: bold;
+  text-decoration: none;
+  color:white; 
+  /*display: inline-block;*/
+}
+
+
+.imgfondo{
+	width: 800px;
+	opacity: 50%;
+	position: fixed;
+	z-index: -3;
+	margin-left: -400px;
+	margin-top: 222px;
+}
+

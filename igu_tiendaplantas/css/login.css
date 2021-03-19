@@ -1,0 +1,89 @@
+body {
+
+    height: 100%;
+    background: url("../img/fondologin.jpg") no-repeat center center fixed;
+    background-size: 100% 100%;
+    font-family: Montserrat, Roboto;
+}
+
+
+header{
+
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	width: 400px;
+	height: 550px;
+	margin-top: 10% ;
+	margin-left:10%;
+	margin-bottom: 10%;
+}
+
+
+header .logo{
+	width: 230px;
+	height: 107px;
+}
+
+header p{
+	font-size: 17px;
+}
+
+input{
+	border-radius: 20px;
+	border: none;
+	background-color: white;
+	padding:13px;	
+}
+
+.recuerdayolvidaste{
+	display: flex;
+	/*background-color: Plum;*/
+	justify-content: space-between;
+	align-items: center;
+}
+
+.checkytext{
+	display: flex;
+	align-items: center;
+}
+
+.re{
+	margin-left: 5px;
+}
+
+.olvidaste{
+	color: #EC2020; 
+	font-weight: bold;
+}
+
+
+
+.cuentaregis{
+	display: flex;
+	justify-content: space-between;
+	/*background-color: Plum;*/
+}
+
+.inicia{
+	background-color: #0D976E;
+	font-size: 15px;
+	font-weight: bold;
+	color: white;
+	text-align: center;
+	border-radius: 20px;
+	padding:13px;	
+	text-decoration: none;
+}
+
+
+.inicia:hover{
+	background-color: #F3B780;
+}
+
+.registrate{
+	color:#EC2020;
+	font-weight: bold;
+}
+
+

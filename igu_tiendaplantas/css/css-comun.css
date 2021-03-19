@@ -1,0 +1,79 @@
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: Montserrat, Roboto;
+}
+
+body {
+      width: 95%;
+      height: 90vh; /*altura de la vista 1 pantallazo */
+      max-width: 950vh;
+      margin: 0.5em auto;   
+      }
+
+header{
+	display:grid;
+	grid-template-columns: 0.8fr 3fr 0.8fr;
+
+}
+
+.logo{
+	height: 112px;
+	padding-top: 40px;
+	background-image:url(../img/logo.png);
+	background-repeat:no-repeat; 
+	}
+
+.menu{
+	/*background-color: green;*/
+	display:flex;
+	justify-content: space-around;
+	align-items: center;
+	padding-right: 44px;
+}
+
+.menu span{
+	font-size: 16px;	
+}
+
+.menu span:hover { 
+	cursor: pointer; 
+}
+
+.busquedausuario{
+ 	/*background-color: pink;*/
+ 	display: flex;
+ 	justify-content: space-around;
+ 	align-items: center;
+}
+
+
+.busquedausuario input{
+	border-radius: 20px;
+	border:solid 3px #A6A4A4;
+	height: 37px;
+	outline: none;
+}
+
+.lupa{
+	height:42px;
+}
+
+.usuario_chica{
+	height: 50px;	
+}
+
+
+.main{
+	display:grid;
+	grid-template-columns: 0.8fr 3fr 0.8fr;	
+	background-color: pink;
+}
+
+main{
+	display:grid;
+	justify-content: center;
+}
+
